@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftCysec Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: cursive;
+            background-color: cadetblue;
+        }
+        
+        .topnav {
+            overflow: hidden;
+            background-color: gray;
+            border-radius: 20px;
+            right: 100px;
+            left: 100px;
+        }
+        
+        .topnav a {
+            float: left;
+            color: rgb(56, 11, 218);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        .topnav a.active {
+            background-color: black;
+            color: royalblue;
+        }
+        
+        .column {
+            float: left;
+            padding: 5px;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="/index.html">Home</a>
+        <a href="/Pages/Contact/contact.html">Contact</a>
+        <a href="/Pages/about.html">About</a>
+    </div>
+    <h2 style="text-align:center">SoftCysec Portfolio Website</h2>
+
+    <div class="row">
+        <img class="column" src="/Images/image_me.jpg " alt="MyImage " width="350 " height="420 " style="border-radius: 30px; margin-left: 50px; ">
+        <img class="column " src="/Images/image1.webp " alt="image1 " width="300 " height="300" style="margin-left: 200px; ">
+        <img class="column " src="/Images/image2.webp " alt="image1 " width="300 " height="300" style="margin-left: 50px; ">
+    </div>
+
+    <p style="font-family: cursive; margin-left:50px; ">CEO and Founder of SoftCysec Co. Ltd <br> <b>Okware Dedan</b></p>
+</body>
+
+</html>
